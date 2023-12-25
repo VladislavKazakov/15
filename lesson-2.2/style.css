@@ -1,0 +1,23 @@
+.icon{
+    width: 50px;
+    height: 40px;
+    background-image: url("./phone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-svg{
+    width: 20px;
+    height: 40px;
+    fill: skyblue;
+    background-color: blanchedalmond;
+    padding: 20px;
+    cursor: pointer;
+    /* border-radius: 50%; */
+}
+
+.icon-svg:hover{
+    fill: rgb(70, 143, 172);
+    background-color: rgb(155, 114, 53);
+}
