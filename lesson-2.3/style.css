@@ -1,0 +1,138 @@
+/* relative */
+.box{
+   width: 150px;
+   height: 150px;
+   border: 2px solid gray;
+   border-radius: 8px; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box:nth-child(1){
+    background-color: blue;
+}
+
+.box:nth-child(2){
+    background-color: yellow;
+}
+
+.box:nth-child(3){
+    background-color: fuchsia;
+}
+
+.yellow{
+    position: relative;
+    top: 400px;
+    right: 700px;
+}
+
+/* absolute */
+img{
+    display: block;
+    width: 1000px;
+}
+.wrap{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.label{
+    position: absolute;
+    top: -24px;
+    left: 0;
+    background-color: rgb(37, 115, 192);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* fixed */
+.chat-button{
+    position: fixed;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1653/1653630.png);
+    background-size: contain;
+    background-color: transparent;
+    cursor: pointer;
+    right: 40px;
+    bottom: 50px;
+    width: 65px;
+    height: 65px;
+    border: none;
+}
+
+/* z-index */
+.box-wrap{
+    position: relative;
+}
+
+.box-shadow{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-shadow:nth-child(1){
+    background-color: rgb(218, 218, 24);
+    top: 20px;
+    left: 90px;
+    z-index: 1;
+}
+.box-shadow:nth-child(2){
+    background-color: rgb(22, 153, 204);
+    top: 30px;
+    left: 150;
+    z-index: 2;
+}
+.box-shadow:nth-child(3){
+    background-color: rgb(198, 21, 21);
+    top: 90px;
+    left: 80px;
+    z-index: 3;
+}
+.box-shadow:nth-child(4){
+    background-color: rgb(16, 182, 157);
+    z-index: 4;
+}
+
+.logo{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.text-logo{
+    font-size: 24px;
+    background-color: fuchsia;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border-radius: 30px;
+}
+
+.text{
+
+}
+
+.text-box{
+    width: 400px;
+    background-color: forestgreen;
+}
+
+.titele-text{
+    position: relative;
+    bottom: 131px;
+}
