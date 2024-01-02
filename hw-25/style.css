@@ -1,0 +1,26 @@
+.list{
+    list-style: none;
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.box:nth-child(1){
+    background-color: rgb(238, 40, 162);
+
+}
+.box:nth-child(2){
+    background-color: rgb(27, 30, 240);
+    left: 90px;
+    top: 60px;
+    z-index: 1;
+}
+.box:nth-child(3){
+    background-color: rgb(7, 241, 58);
+    left: 150px;
+    top: 120px;
+}
