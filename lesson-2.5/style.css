@@ -1,0 +1,99 @@
+/* .box{
+    border: 10px solid;
+    width: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+img{
+    display: block;
+    width: 100%;
+} */
+
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.box:hover .overlay{
+    background-color: aquamarine;
+    transform: translateY(0%);
+} */
+
+/* .menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.meny-item{
+    margin-right: 15px;
+    outline: 2px solid brown;
+    position: relative;
+}
+
+.menu-link{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: blanchedalmond;
+}
+
+.sub-menu{
+    position: absolute;
+    width: 88%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: slategrey;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.meny-item:hover .sub-menu{
+    display: block;
+}
+
+.menu-link:hover{
+    background-color: rgb(5, 142, 94);
+} */
+
+/* html{
+    scroll-behavior: smooth;
+}
+
+#one{
+    height: 1200px;
+    background-color: darkblue;
+}
+
+#two{
+    height: 1200px;
+    background-color: yellow;
+} */
+
+button{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(159, 141, 141);
+}
