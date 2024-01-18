@@ -1,0 +1,43 @@
+.menu-item{
+    position: relative;
+}
+
+.menu-link{
+    text-decoration: none;
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    padding: 50px 20px;
+    transform: rotate(180deg);
+}
+
+.submenu{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    list-style: none;
+    padding: 15px;
+    background-color: gray;
+    transform: translate(-100%);
+    transition: transform 500ms ease;
+}
+
+.menu-item:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0);
+}
+
+.link{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: orange;
+}
