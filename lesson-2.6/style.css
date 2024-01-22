@@ -12,10 +12,10 @@ body{
     border-radius: 20px;
     border: 2px solid aqua;
     box-shadow: 5px 10px 10px blue;
-    transition-property: transform;
-    transition-duration: 3s;
+    transition-property: background-color;
+    transition-duration: 250ms;
 }
 
 .box:hover{
-    transform: rotate(360deg);
+    background-color: orangered;
 }
