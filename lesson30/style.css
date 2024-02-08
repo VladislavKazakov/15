@@ -1,4 +1,5 @@
-/* .box{
+    /* 1
+.box{
     width: 250px;
     height: 250px;
     border: 1px solid gray;
@@ -30,7 +31,10 @@
     }
 } */
 
-/* .content{
+
+
+    /* 2 */
+.content{
     padding: 50px;
 }
 
@@ -65,8 +69,11 @@
         left: 500px;
         background-color: orange;
     }
-} */
+}
 
+
+/*
+   3
 img{
     animation-name: spin;
     animation-duration: 10s;
@@ -81,4 +88,4 @@ img{
     100%{
         transform: rotate(360deg);
     }
-}
+} */
