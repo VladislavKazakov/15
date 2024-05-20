@@ -1,0 +1,73 @@
+.About{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 36px;
+}
+
+.About__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 141%;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.About__title-text{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.About__nav-item{
+    width: 760px;
+    height: 500px;
+    background-color: #F7FAFF;
+    padding-left: 39px;
+}
+
+.About__nav{
+    width: 622px;
+    height: 173px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.About__link{
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.About__text{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.About__item-img{
+    background-repeat: no-repeat;
+}
+
+.About__img{
+
+}
+
+@media (min-width: 768px) and (max-width: 1199) {
+    
+    .About__item-img{
+        background-image: url(./img/product@1xplan.png);
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1200px) {    
+    .About__item-img{
+        background-image: url(./img/product@1x.png);
+        background-repeat: no-repeat;
+        margin-left: 760px;
+    }
+}
