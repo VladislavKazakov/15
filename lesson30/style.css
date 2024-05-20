@@ -1,0 +1,91 @@
+    /* 1
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+
+.box:hover{
+    animation-name: changeColor;
+    animation-duration: 6s;
+}
+
+@keyframes changeColor{
+    0%{
+        background-color: teal;
+    }
+    30%{
+        background-color: palevioletred;
+    }
+    50%{
+        background-color: rgb(44, 27, 119);
+    }
+    70%{
+        background-color: rgb(56, 165, 165);
+    }
+   100%{
+        background-color: rgb(209, 71, 21);
+    }
+} */
+
+
+
+    /* 2 */
+.content{
+    padding: 50px;
+}
+
+.box{
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    animation-name: chanheColor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.content:hover .box{
+    animation-play-state: paused;
+}
+
+@keyframes chanheColor{
+    0%{
+        left: 0;
+        background-color: orange;
+    }
+    50%{
+        border-radius: 0;
+        background-color: yellow;
+    }
+    100%{
+        left: 500px;
+        background-color: orange;
+    }
+}
+
+
+/*
+   3
+img{
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
